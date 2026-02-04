@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: inherit;
+}
+body {
+  width: 4800px;
+  background-color: rgb(134, 206, 235);
+  display: grid;
+  grid-template-columns: repeat(100, 48px);
+  grid-template-rows: repeat(30, 48px);
+  overflow: auto;
+  scrollbar-width: thin;
+}
+.box {
+  /* width: 48px;
+  height: 48px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box:hover {
+  border: 1px solid black;
+  filter: brightness();
+}
+.grass {
+  background-image: url("/images/grass.webp");
+}
+.dirt {
+  background-image: url("/images/dirt.webp");
+}
+.stone {
+  background-image: url("/images/stone.webp");
+}
+.bedrock {
+  background-image: url("/images/bedrock.webp");
+}
+.wood {
+  background-image: url("/images/wood.webp");
+}
+.leaf {
+  background-image: url("/images/leaf.webp");
+}
+
+nav > button {
+  display: block;
+  background-color: inherit;
+  border: none;
+}
+nav:nth-of-type(1) button {
+  display: inline-block;
+  padding: 6px 10px;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+  background-color: rgb(173, 172, 172);
+  border: 0.5px solid gray;
+}
+
+nav:nth-of-type(1) {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+nav:nth-of-type(2) {
+  position: fixed;
+  top: 60px;
+  left: 10px;
+}
+nav:nth-of-type(2) button {
+  /* background-color: rgb(227, 235, 235); */
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pickaxe {
+  background-image: url("buttonsImagges/pickaxe.webp");
+}
+.axe {
+  background-image: url("buttonsImagges/axe.webp");
+}
+.shovel {
+  background-image: url("buttonsImagges/shovel.webp");
+}
+.shears {
+  background-image: url("buttonsImagges/shears.webp");
+}
+
+body > aside {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  /* color: aliceblue; */
+}
+body > aside button {
+  width: 50px;
+  border: none;
+  height: 50px;
+  margin-left: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: x-large;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
