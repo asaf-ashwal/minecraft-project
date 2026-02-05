@@ -26,22 +26,22 @@ body {
   filter: brightness();
 }
 .grass {
-  background-image: url("/images/grass.webp");
+  background-image: url("http://127.0.0.1:5500/images/grass.webp");
 }
 .dirt {
-  background-image: url("/images/dirt.webp");
+  background-image: url("http://127.0.0.1:5500/images/dirt.webp");
 }
 .stone {
-  background-image: url("/images/stone.webp");
+  background-image: url("http://127.0.0.1:5500/images/stone.webp");
 }
 .bedrock {
-  background-image: url("/images/bedrock.webp");
+  background-image: url("http://127.0.0.1:5500/images/bedrock.webp");
 }
 .wood {
-  background-image: url("/images/wood.webp");
+  background-image: url("http://127.0.0.1:5500/images/wood.webp");
 }
 .leaf {
-  background-image: url("/images/leaf.webp");
+  background-image: url("http://127.0.0.1:5500/images/leaf.webp");
 }
 
 nav > button {
